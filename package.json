@@ -1,0 +1,13 @@
+{
+  "name": "docker-k8s-debug",
+  "version": "1.0.0",
+  "description": "foobar",
+  "license": "UNLICENSED",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
