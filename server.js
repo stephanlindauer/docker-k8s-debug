@@ -7,7 +7,8 @@ var counter = 0;
 
 const app = express();
 app.get('/', function (req, res) {
-  var response = "";
+  var response = 
+  response += 'image version' + ' - ' + 1 + '<br/>';
   response += 'counter' + ' - ' + counter + '<br/>';
   response += 'os.hostname()' + ' - ' + os.hostname() + '<br/>';
   response += 'os.type()' + ' - ' + os.type() + '<br/>';
