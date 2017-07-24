@@ -6,7 +6,7 @@ const express = require('express');
 var counter = 0;
 
 const app = express();
-app.get('/', function (req, res) {
+app.get('*', function (req, res) {
   var response = "";
   response += 'image version' + ' - ' + "foobar" + '<br/>';
   response += 'counter' + ' - ' + counter + '<br/>';
