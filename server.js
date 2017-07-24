@@ -20,7 +20,8 @@ app.get('/', function (req, res) {
   response += 'os.totalmem()' + ' - ' + os.totalmem() + '<br/>';
   response += 'os.freemem()' + ' - ' + os.freemem() + '<br/>';
   response += 'os.cpus()' + ' - ' + os.cpus().length + '<br/>';
-  response += 'os.networkInterfaces()' + ' - ' + os.networkInterfaces() + '<br/>';
+  response += 'os.cpus()' + ' - ' + os.cpus().length + '<br/>';
+  response += 'FOO: ' + ' - ' + process.env.FOO + '<br/>';
   res.send(response);
   counter++;
 });
